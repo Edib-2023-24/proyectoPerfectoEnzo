@@ -1,0 +1,33 @@
+body{
+    background-color: #F1F1F1;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('../font/helveticaneue-bold.woff2') format('woff2'),
+    url('../font/helveticaneue-bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  
+  }
+.titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 10px;
+    
+}
+
+
+.pTitulo{
+    
+    border-radius: 10px;
+    background-color: #FFFF;
+    padding: 30px 20px;
+    font-weight: 400;
+    font-size: 32px;
+    font-family: 'Helvetica Neue';
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    
+}
